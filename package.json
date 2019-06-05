@@ -1,5 +1,5 @@
 {
-  "name": "customerdb",
+  "name": "customer_management",
   "version": "1.0.0",
   "description": "Customer Manager",
   "main": "server.js",
