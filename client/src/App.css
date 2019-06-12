@@ -1,0 +1,42 @@
+body {
+  font-family: "Lato", "Roboto", Georgia, sans-serif;
+  max-width: 1200px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+}
+
+h1 {
+  color: royalblue;
+}
+h3 {
+  text-align: center;
+  color: royalblue;
+}
+h4 {
+  color: gray;
+  text-align: center;
+  margin: 20px auto;
+}
+.list {
+  text-align: left;
+  margin: 0 auto;
+  color: gray;
+}
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 100vw;
+  }
+}
+@media (min-width: 901px) {
+  .container {
+    max-width: 90vw;
+  }
+}
+@media (min-width: 1150px) {
+  .container {
+    max-width: 70vw;
+  }
+}
