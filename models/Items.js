@@ -16,11 +16,11 @@ const ItemSchema = new Schema({
     required: true
   },
   mobile_phone: {
-    type: Number,
+    type: String,
     required: true
   },
   work_phone: {
-    type: Number
+    type: String
   },
   shipping_street: {
     type: String,
