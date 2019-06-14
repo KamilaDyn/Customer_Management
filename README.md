@@ -1,3 +1,31 @@
+QUICK START
+
+## 'npm install'
+
+Install dependencies for server
+
+## 'npm run client-install'
+
+Install dependencies for client
+
+## 'npm run dev '
+
+run the client and server concurrently
+
+## 'npm run server'
+
+run only the express server
+
+## 'npm run client'
+
+run the react client only
+
+server -> http://localhost:5000
+
+client -> http://localhost:3000
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
