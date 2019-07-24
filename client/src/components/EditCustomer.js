@@ -42,7 +42,7 @@ class EditCustomer extends Component {
     } = this.props;
 
     axios
-      .get(`http://localhost:5000/api/items/${params.id}`)
+      .get(`/api/items/${params.id}`)
       .then(response => {
         this.setState({
           _id: response.data._id,

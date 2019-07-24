@@ -18,7 +18,7 @@ class CustomerDetails extends Component {
     } = this.props;
 
     axios
-      .get(`http://localhost:5000/api/items/${params.id}`)
+      .get(`/api/items/${params.id}`)
       // .then(response => console.log(response));
       .then(response => {
         // console.log(response);

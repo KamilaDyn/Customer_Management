@@ -20,10 +20,6 @@ class CustomerItem extends Component {
           <h4 className="list">
             {this.state.item.second_name} {this.state.item.first_name}
           </h4>
-
-          {/* <Col sm="2">
-              <i className="fa fa-id-card" />
-            </Col> */}
         </ListGroup.Item>
       </ListGroup>
     );

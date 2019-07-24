@@ -16,7 +16,7 @@ class AddCustomer extends Component {
     axios
       .request({
         method: "post",
-        url: `http://localhost:5000/api/items`,
+        url: `/api/items`,
         data: newCustomer
       })
       .then(response => console.log(response.data))
