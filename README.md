@@ -1,6 +1,36 @@
+<<<<<<< HEAD
 
 You can see this project how it looks and works here:  https://customer-management-react.herokuapp.com/
 
+=======
+QUICK START
+
+## 'npm install'
+
+Install dependencies for server
+
+## 'npm run client-install'
+
+Install dependencies for client
+
+## 'npm run dev '
+
+run the client and server concurrently
+
+## 'npm run server'
+
+run only the express server
+
+## 'npm run client'
+
+run the react client only
+
+server -> http://localhost:5000
+
+client -> http://localhost:3000
+
+---
+>>>>>>> c41f608f68039a63b75b752bca98efd0844ba73e
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
