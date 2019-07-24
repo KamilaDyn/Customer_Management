@@ -24,7 +24,7 @@ class Customers extends Component {
 
   getCustomers() {
     axios
-      .get(`http://localhost:5000/api/items`)
+      .get(`/api/items`)
       // .then(response => console.log(response));
       .then(response => {
         this.setState({ customers: response.data }, () => {});
