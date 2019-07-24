@@ -32,7 +32,7 @@ class CustomerDetails extends Component {
   onDelete() {
     const contactId = this.state.details._id;
     axios
-      .delete(`http://localhost:5000/api/items/${contactId}`)
+      .delete(`/api/items/${contactId}`)
       .then(response => {
         this.props.history.push("/");
       })
