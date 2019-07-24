@@ -69,7 +69,7 @@ class EditCustomer extends Component {
     axios
       .request({
         method: "put",
-        url: `http://localhost:5000/api/items/${this.state._id}`,
+        url: `/api/items/${this.state._id}`,
         data: newCustomer
       })
       .then(response => {
