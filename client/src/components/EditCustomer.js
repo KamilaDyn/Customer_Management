@@ -170,7 +170,7 @@ class EditCustomer extends Component {
               onSubmit={e => this.handleSubmit(e)}
             >
               <Form.Row>
-                <Form.Group as={Col} controlId="first_name">
+                <Form.Group as={Col} xs={12} md={6} controlId="first_name">
                   <Form.Label>Name</Form.Label>
                   <Form.Control
                     value={first_name}
@@ -186,7 +186,7 @@ class EditCustomer extends Component {
                     Please write a name
                   </Form.Control.Feedback>
                 </Form.Group>
-                <Form.Group as={Col} controlId="second_name">
+                <Form.Group as={Col} xs={12} md={6} controlId="second_name">
                   <Form.Label>Second Name</Form.Label>
                   <Form.Control
                     value={second_name}
@@ -204,8 +204,8 @@ class EditCustomer extends Component {
                 </Form.Group>
               </Form.Row>
               <Form.Row>
-                <Form.Group as={Col} controlId="mobile_phone">
-                  <Form.Label>Number phone</Form.Label>
+                <Form.Group as={Col} xs={12} sm={6} controlId="mobile_phone">
+                  <Form.Label>1st Phone</Form.Label>
                   <Form.Control
                     required
                     placeholder="Enter number"
@@ -220,8 +220,8 @@ class EditCustomer extends Component {
                   </Form.Control.Feedback>
                 </Form.Group>
 
-                <Form.Group as={Col} controlId="work_phone">
-                  <Form.Label>Number phone_2nd</Form.Label>
+                <Form.Group as={Col} xs={12} sm={6} controlId="work_phone">
+                  <Form.Label>2nd Phone</Form.Label>
                   <Form.Control
                     type="text"
                     placeholder="Enter number"
@@ -255,7 +255,8 @@ class EditCustomer extends Component {
                 </Col>
               </Row>
               <Form.Row>
-                <Form.Group as={Col} controlId="shipping_street">
+                <Form.Group as={Col} xs={12} md={6} controlId="shipping_street">
+                  <Form.Label>Street</Form.Label>
                   <Form.Control
                     required
                     placeholder="street"
@@ -269,7 +270,14 @@ class EditCustomer extends Component {
                     Please provide a valid street
                   </Form.Control.Feedback>
                 </Form.Group>
-                <Form.Group as={Col} xs="2" controlId="shipping_number">
+                <Form.Group
+                  as={Col}
+                  xs={5}
+                  sm={4}
+                  md={2}
+                  controlId="shipping_number"
+                >
+                  <Form.Label>Number</Form.Label>
                   <Form.Control
                     required
                     placeholder="number"
@@ -283,10 +291,14 @@ class EditCustomer extends Component {
                     Please provide a valid number
                   </Form.Control.Feedback>
                 </Form.Group>
-              </Form.Row>
-
-              <Form.Row>
-                <Form.Group as={Col} controlId="shipping_zipcode">
+                <Form.Group
+                  as={Col}
+                  xs={7}
+                  sm={8}
+                  md={4}
+                  controlId="shipping_zipcode"
+                >
+                  <Form.Label>Zipcode</Form.Label>
                   <Form.Control
                     required
                     placeholder="zip"
@@ -300,7 +312,11 @@ class EditCustomer extends Component {
                     Please provide a valid zip
                   </Form.Control.Feedback>
                 </Form.Group>
-                <Form.Group as={Col} controlId="shipping_city">
+              </Form.Row>
+
+              <Form.Row>
+                <Form.Group as={Col} xs={12} sm={6} controlId="shipping_city">
+                  <Form.Label>City</Form.Label>
                   <Form.Control
                     required
                     placeholder="city name"
@@ -314,7 +330,13 @@ class EditCustomer extends Component {
                     Please provide a valid city
                   </Form.Control.Feedback>
                 </Form.Group>
-                <Form.Group as={Col} controlId="shipping_country">
+                <Form.Group
+                  as={Col}
+                  xs={12}
+                  sm={6}
+                  controlId="shipping_country"
+                >
+                  <Form.Label>Country</Form.Label>
                   <Form.Control
                     required
                     placeholder="country name"
@@ -346,7 +368,8 @@ class EditCustomer extends Component {
                 </Col>
               </Row>
               <Form.Row>
-                <Form.Group as={Col} controlId="billing_street">
+                <Form.Group as={Col} xs={12} md={6} controlId="billing_street">
+                  <Form.Label>Street</Form.Label>
                   <Form.Control
                     required
                     placeholder="street"
@@ -360,7 +383,14 @@ class EditCustomer extends Component {
                     Please provide a valid street
                   </Form.Control.Feedback>
                 </Form.Group>
-                <Form.Group as={Col} xs="2" controlId="billing_number">
+                <Form.Group
+                  as={Col}
+                  xs={5}
+                  sm={4}
+                  md={2}
+                  controlId="billing_number"
+                >
+                  <Form.Label>Number</Form.Label>
                   <Form.Control
                     required
                     placeholder="number"
@@ -374,10 +404,14 @@ class EditCustomer extends Component {
                     Please provide a valid number
                   </Form.Control.Feedback>
                 </Form.Group>
-              </Form.Row>
-
-              <Form.Row>
-                <Form.Group as={Col} controlId="billing_zipcode">
+                <Form.Group
+                  as={Col}
+                  xs={7}
+                  sm={8}
+                  md={4}
+                  controlId="billing_zipcode"
+                >
+                  <Form.Label>Zipcode</Form.Label>
                   <Form.Control
                     required
                     placeholder="zip"
@@ -391,7 +425,11 @@ class EditCustomer extends Component {
                     Please provide a valid zip
                   </Form.Control.Feedback>
                 </Form.Group>
-                <Form.Group as={Col} controlId="billing_city">
+              </Form.Row>
+
+              <Form.Row>
+                <Form.Group as={Col} xs={12} sm={6} controlId="billing_city">
+                  <Form.Label>City</Form.Label>
                   <Form.Control
                     required
                     placeholder="city name"
@@ -405,7 +443,8 @@ class EditCustomer extends Component {
                     Please provide a valid city
                   </Form.Control.Feedback>
                 </Form.Group>
-                <Form.Group as={Col} controlId="billing_country">
+                <Form.Group as={Col} xs={12} sm={6} controlId="billing_country">
+                  <Form.Label>Country</Form.Label>
                   <Form.Control
                     required
                     placeholder="country name"

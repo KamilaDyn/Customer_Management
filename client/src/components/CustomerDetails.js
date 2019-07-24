@@ -74,10 +74,7 @@ class CustomerDetails extends Component {
           <Card.Header>
             <h2 className="text-primary text-center">
               <Link to={`/items/edit/${_id}`}>
-                <i
-                  className="fas fa-user-edit mr-5"
-                  style={{ fontSize: "40px", color: "blue" }}
-                />
+                <i className="fas fa-user-edit mr-5" />
               </Link>
               {second_name} {first_name}
             </h2>
@@ -85,15 +82,17 @@ class CustomerDetails extends Component {
           <ListGroup>
             <ListGroup.Item>
               <i className="fas fa-envelope mr-2" />
-              <strong>Email: </strong> {email}
+              <strong>Email: </strong>
+              {email}
             </ListGroup.Item>
             <ListGroup.Item>
               <i className="fas fa-mobile-alt mr-2" />
-              <strong>Phone: </strong> {mobile_phone}
+              <strong>1st Phone: </strong> {mobile_phone}
             </ListGroup.Item>
             <ListGroup.Item>
               <i className="fas fa-phone-volume mr-2" />
-              <strong>Phone_2nd:</strong> {work_phone}
+              <strong>2nd Phone: </strong>
+              {work_phone}
             </ListGroup.Item>
             <ListGroup.Item>
               <h5 className="my-1 text-center text-secondary">
@@ -102,37 +101,47 @@ class CustomerDetails extends Component {
             </ListGroup.Item>
           </ListGroup>
           <ListGroup.Item>
-            <strong>Street:</strong> {shipping_street}
+            <strong>Street: </strong>
+            {shipping_street}
           </ListGroup.Item>
           <ListGroup.Item>
-            <strong>Number:</strong> {shipping_number}
+            <strong>Number: </strong>
+            {shipping_number}
           </ListGroup.Item>
           <ListGroup.Item>
-            <strong>Zipcode:</strong> {shipping_zipcode}
+            <strong>Zipcode: </strong>
+            {shipping_zipcode}
           </ListGroup.Item>
           <ListGroup.Item>
-            <strong>City:</strong> {shipping_city}
+            <strong>City: </strong>
+            {shipping_city}
           </ListGroup.Item>
           <ListGroup.Item>
-            <strong>Country:</strong> {shipping_country}
+            <strong>Country: </strong>
+            {shipping_country}
           </ListGroup.Item>
           <ListGroup.Item>
             <h5 className="my-1 text-center text-secondary">Billing Address</h5>
           </ListGroup.Item>
           <ListGroup.Item>
-            <strong>Street:</strong> {billing_street}
+            <strong>Street: </strong>
+            {billing_street}
           </ListGroup.Item>
           <ListGroup.Item>
-            <strong>Number:</strong> {billing_number}
+            <strong>Number: </strong>
+            {billing_number}
           </ListGroup.Item>
           <ListGroup.Item>
-            <strong>Zipcode</strong> {billing_zipcode}
+            <strong>Zipcode: </strong>
+            {billing_zipcode}
           </ListGroup.Item>
           <ListGroup.Item>
-            <strong>City:</strong> {billing_city}
+            <strong>City: </strong>
+            {billing_city}
           </ListGroup.Item>
           <ListGroup.Item>
-            <strong>Country:</strong> {billing_country}
+            <strong>Country: </strong>
+            {billing_country}
           </ListGroup.Item>
           <Card.Body />
           <Button

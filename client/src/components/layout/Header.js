@@ -27,7 +27,7 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <Navbar color="primary" light expand="md" style={{ minHeight: "12vh" }}>
+        <Navbar color="primary" light expand="md">
           <NavbarBrand className="expand-lg mr-auto text-white " href="/">
             <h2> Customer Management</h2>
           </NavbarBrand>
@@ -36,15 +36,15 @@ class Header extends Component {
             className="bg-primary"
             isOpen={this.state.isOpen}
             navbar
-            style={{ maxHeight: "15vh", zIndex: "1" }}
+            style={{ zIndex: "1" }}
           >
             <Nav className="ml-auto" navbar>
-              <NavItem style={{ MaxLineHeight: "30px" }}>
+              <NavItem>
                 <NavLink className=" text-white center" href="/items/add">
                   <h5> Add New</h5>
                 </NavLink>
               </NavItem>
-              <NavItem style={{ lineHeight: "30px" }}>
+              <NavItem>
                 <NavLink className=" text-white center m-0" href="/about">
                   <h5>About</h5>
                 </NavLink>
